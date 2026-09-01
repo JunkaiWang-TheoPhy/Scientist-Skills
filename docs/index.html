@@ -20,15 +20,15 @@
     <section id="constellation">
       <p class="section-kicker">Choose the move your problem needs</p>
       <h2>Method constellation</h2>
-      <div class="grid"><a class="card cyan" href="https://github.com/JunkaiWang-TheoPhy/Kitaev-Skill"><span class="index">01</span><h2>Kitaev Skill</h2><p>Build the smallest model in which the desired phenomenon has nowhere to go.</p><span class="open">Open repository ↗</span></a>
-<a class="card violet" href="https://github.com/JunkaiWang-TheoPhy/Wen-Skill"><span class="index">02</span><h2>Wen Skill</h2><p>Invent the primitive that makes hidden organization speakable before measuring it.</p><span class="open">Open repository ↗</span></a>
-<a class="card gold" href="https://github.com/JunkaiWang-TheoPhy/Juan-Skill"><span class="index">03</span><h2>Juan Skill</h2><p>Make two descriptions earn their equivalence through a shared observable dictionary.</p><span class="open">Open repository ↗</span></a>
-<a class="card coral" href="https://github.com/JunkaiWang-TheoPhy/Nima-Skill"><span class="index">04</span><h2>Nima Skill</h2><p>Strip away inherited scaffolding until observables arise from the smallest generating structure.</p><span class="open">Open repository ↗</span></a>
-<a class="card blue" href="https://github.com/JunkaiWang-TheoPhy/Yang-Skill"><span class="index">05</span><h2>Yang Skill</h2><p>Find where a trusted principle breaks under localization and add only what consistency demands.</p><span class="open">Open repository ↗</span></a>
-<a class="card green" href="https://github.com/JunkaiWang-TheoPhy/Yau-Skill"><span class="index">06</span><h2>Yau Skill</h2><p>Turn a global theorem into one seed equation, then close every analytic gate.</p><span class="open">Open repository ↗</span></a>
-<a class="card magenta" href="https://github.com/JunkaiWang-TheoPhy/Seiberg-Skill"><span class="index">07</span><h2>Seiberg Skill</h2><p>Reconstruct inaccessible dynamics from protected data, controlled deformations, and reverse consistency.</p><span class="open">Open repository ↗</span></a>
-<a class="card orange" href="https://github.com/JunkaiWang-TheoPhy/Nikita-Skill"><span class="index">08</span><h2>Nikita Skill</h2><p>Deform a continuous problem until it localizes into discrete data and a master generating object.</p><span class="open">Open repository ↗</span></a>
-<a class="card teal" href="https://github.com/JunkaiWang-TheoPhy/Siegel-Skill"><span class="index">09</span><h2>Siegel Skill</h2><p>Change the representation until symmetries, constraints, and calculational leverage become manifest.</p><span class="open">Open repository ↗</span></a></div>
+      <div class="grid"><a id="kitaev" class="card cyan" href="https://github.com/JunkaiWang-TheoPhy/Kitaev-Skill"><span class="index">01</span><h2>Kitaev Skill</h2><p>Build the smallest model in which the desired phenomenon has nowhere to go.</p><span class="open">Open repository ↗</span></a>
+<a id="wen" class="card violet" href="https://github.com/JunkaiWang-TheoPhy/Wen-Skill"><span class="index">02</span><h2>Wen Skill</h2><p>Invent the primitive that makes hidden organization speakable before measuring it.</p><span class="open">Open repository ↗</span></a>
+<a id="juan" class="card gold" href="https://github.com/JunkaiWang-TheoPhy/Juan-Skill"><span class="index">03</span><h2>Juan Skill</h2><p>Make two descriptions earn their equivalence through a shared observable dictionary.</p><span class="open">Open repository ↗</span></a>
+<a id="nima" class="card coral" href="https://github.com/JunkaiWang-TheoPhy/Nima-Skill"><span class="index">04</span><h2>Nima Skill</h2><p>Strip away inherited scaffolding until observables arise from the smallest generating structure.</p><span class="open">Open repository ↗</span></a>
+<a id="yang" class="card blue" href="https://github.com/JunkaiWang-TheoPhy/Yang-Skill"><span class="index">05</span><h2>Yang Skill</h2><p>Find where a trusted principle breaks under localization and add only what consistency demands.</p><span class="open">Open repository ↗</span></a>
+<a id="yau" class="card green" href="https://github.com/JunkaiWang-TheoPhy/Yau-Skill"><span class="index">06</span><h2>Yau Skill</h2><p>Turn a global theorem into one seed equation, then close every analytic gate.</p><span class="open">Open repository ↗</span></a>
+<a id="seiberg" class="card magenta" href="https://github.com/JunkaiWang-TheoPhy/Seiberg-Skill"><span class="index">07</span><h2>Seiberg Skill</h2><p>Reconstruct inaccessible dynamics from protected data, controlled deformations, and reverse consistency.</p><span class="open">Open repository ↗</span></a>
+<a id="nikita" class="card orange" href="https://github.com/JunkaiWang-TheoPhy/Nikita-Skill"><span class="index">08</span><h2>Nikita Skill</h2><p>Deform a continuous problem until it localizes into discrete data and a master generating object.</p><span class="open">Open repository ↗</span></a>
+<a id="siegel" class="card teal" href="https://github.com/JunkaiWang-TheoPhy/Siegel-Skill"><span class="index">09</span><h2>Siegel Skill</h2><p>Change the representation until symmetries, constraints, and calculational leverage become manifest.</p><span class="open">Open repository ↗</span></a></div>
     </section>
     <section id="principles" class="principles">
       <div><span>01</span><h3>Collective, not persona</h3><p>Names index public, documented methodological lineages. They never authorize impersonation or inferred endorsement.</p></div>
@@ -38,5 +38,11 @@
     <section class="arc"><p>concept → model → dictionary → consistency → closure → enumeration → representation</p></section>
   </main>
   <footer><p>Built as open Codex Skills · Apache-2.0</p><p>科学家姓名仅作为方法群像索引，不代表本人观点或背书。</p></footer>
+  <script>
+    window.addEventListener('load', () => {
+      const target = location.hash && document.querySelector(location.hash);
+      if (target) requestAnimationFrame(() => target.scrollIntoView({block: 'start'}));
+    });
+  </script>
 </body>
 </html>
