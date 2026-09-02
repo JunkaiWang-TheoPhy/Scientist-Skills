@@ -43,7 +43,7 @@
 | [`Yang Skill`](https://github.com/JunkaiWang-TheoPhy/Yang-Skill) | 找到可信原则在局域化时破裂的位置，只加入一致性真正要求的结构。 | Apache-2.0 |
 | [`Yau Skill`](https://github.com/JunkaiWang-TheoPhy/Yau-Skill) | 把整体定理压成一个种子方程，再逐门关闭所有分析门槛。 | Apache-2.0 |
 | [`Seiberg Skill`](https://github.com/JunkaiWang-TheoPhy/Seiberg-Skill) | 从保护数据、受控变形与反向一致性中重建不可直接求解的动力学。 | Apache-2.0 |
-| [`Nikita Skill`](https://github.com/JunkaiWang-TheoPhy/Nikita-Skill) | 把连续问题变形到局域化为离散数据与母生成对象。 | Apache-2.0 |
+| [`Nekrasov Skill`](https://github.com/JunkaiWang-TheoPhy/Nekrasov-Skill) | 把连续问题变形到局域化为离散数据与母生成对象。 | Apache-2.0 |
 | [`Siegel Skill`](https://github.com/JunkaiWang-TheoPhy/Siegel-Skill) | 改变表示，直到对称性、约束与计算杠杆全部显式。 | Apache-2.0 |
 | [`Pauli Skill`](https://github.com/JunkaiWang-TheoPhy/Pauli-Skill) | 以分层证据和建设性修复审查、挑战并判定论证。 | Apache-2.0 |
 

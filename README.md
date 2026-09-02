@@ -43,7 +43,7 @@ close analysis ── review and judge ── protect and deform ── enumerat
 | [`Yang Skill`](https://github.com/JunkaiWang-TheoPhy/Yang-Skill) | Find where a trusted principle breaks under localization and add only what consistency demands. | Apache-2.0 |
 | [`Yau Skill`](https://github.com/JunkaiWang-TheoPhy/Yau-Skill) | Turn a global theorem into one seed equation, then close every analytic gate. | Apache-2.0 |
 | [`Seiberg Skill`](https://github.com/JunkaiWang-TheoPhy/Seiberg-Skill) | Reconstruct inaccessible dynamics from protected data, controlled deformations, and reverse consistency. | Apache-2.0 |
-| [`Nikita Skill`](https://github.com/JunkaiWang-TheoPhy/Nikita-Skill) | Deform a continuous problem until it localizes into discrete data and a master generating object. | Apache-2.0 |
+| [`Nekrasov Skill`](https://github.com/JunkaiWang-TheoPhy/Nekrasov-Skill) | Deform a continuous problem until it localizes into discrete data and a master generating object. | Apache-2.0 |
 | [`Siegel Skill`](https://github.com/JunkaiWang-TheoPhy/Siegel-Skill) | Change the representation until symmetries, constraints, and calculational leverage become manifest. | Apache-2.0 |
 | [`Pauli Skill`](https://github.com/JunkaiWang-TheoPhy/Pauli-Skill) | Review, challenge, and judge arguments with layered evidence and constructive repair. | Apache-2.0 |
 
