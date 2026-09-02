@@ -7,28 +7,28 @@
 <p align="center">
   <img alt="可见性：公开" src="https://img.shields.io/badge/visibility-public-2ea44f">
   <img alt="许可证：Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue">
-  <img alt="Skill 数量：12" src="https://img.shields.io/badge/skills-12-7c3aed">
+  <img alt="Skill 数量：13" src="https://img.shields.io/badge/skills-13-7c3aed">
   <a href="https://JunkaiWang-TheoPhy.github.io/Scientist-Skills/"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-0ea5e9"></a>
 </p>
 
 <p align="center">
-  <img src="assets/scientist-skills-banner.png" alt="十二种科学方法组成的星座">
+  <img src="assets/scientist-skills-banner.png" alt="科学方法组成的星座">
 </p>
 
-<p align="center"><em>十二个名字，十二件方法仪器，一座有证据边界的科学发现实验室。</em></p>
+<p align="center"><em>十三个名字，十三件方法仪器，一座有证据边界的科学发现实验室。</em></p>
 
 ## 引言
 
-困难问题很少只需要一种聪明。有人重写范式，有人检查承重主张，也有人从可观测跃迁重建运动学。其他方法发明概念、构造鲁棒模型、建立描述字典、删除中介、补全一致性、关闭分析门槛、执行变形与枚举，或者重建设计表示。
+困难问题很少只需要一种聪明。有人重写范式，有人检查承重主张，也有人从可观测跃迁重建运动学。Pauli 补上对抗性审查、校准判定和最小建设性修复。其他方法发明概念、构造鲁棒模型、建立描述字典、删除中介、补全一致性、关闭分析门槛、执行变形与枚举，或者重建设计表示。
 
-`Scientist-Skills` 把十二套方法放在同一张地图上。每个名称都是公共证据支持的方法群像，不是对具体人物的模拟。每个独立仓库都保留方法核与身份边界；`distill-scientist` profiles 还保留 claim、lineage、反证与行为评测台账。
+`Scientist-Skills` 把十三套方法放在同一张地图上。每个名称都是公共证据支持的方法群像，不是对具体人物的模拟。每个独立仓库都保留方法核与身份边界；`distill-scientist` profiles 还保留 claim、lineage、反证与行为评测台账。
 
 ## 方法星图
 
 ```text
 重写范式 ── 检查承重主张 ── 重建可观测运动学
 发明概念 ── 构造模型 ── 建立字典 ── 删除中介 ── 补全一致性
-分析闭合 ── 保护与变形 ── 精确枚举 ── 重构表示
+分析闭合 ── 审查与判定 ── 保护与变形 ── 精确枚举 ── 重构表示
 ```
 
 | Skill | 方法风格 | 许可证 |
@@ -45,6 +45,7 @@
 | [`Seiberg Skill`](https://github.com/JunkaiWang-TheoPhy/Seiberg-Skill) | 从保护数据、受控变形与反向一致性中重建不可直接求解的动力学。 | Apache-2.0 |
 | [`Nikita Skill`](https://github.com/JunkaiWang-TheoPhy/Nikita-Skill) | 把连续问题变形到局域化为离散数据与母生成对象。 | Apache-2.0 |
 | [`Siegel Skill`](https://github.com/JunkaiWang-TheoPhy/Siegel-Skill) | 改变表示，直到对称性、约束与计算杠杆全部显式。 | Apache-2.0 |
+| [`Pauli Skill`](https://github.com/JunkaiWang-TheoPhy/Pauli-Skill) | 以分层证据和建设性修复审查、挑战并判定论证。 | Apache-2.0 |
 
 ## 浏览
 
@@ -54,4 +55,4 @@
 
 ## 许可证
 
-本聚合仓库采用 [Apache License 2.0](LICENSE)。Einstein Skill 与 Witten Skill 保留原有 AGPL-3.0；其余十个仓库采用 Apache-2.0。
+本聚合仓库采用 [Apache License 2.0](LICENSE)。Einstein Skill 与 Witten Skill 保留原有 AGPL-3.0；其余十二个仓库采用 Apache-2.0。
