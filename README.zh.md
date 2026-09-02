@@ -55,4 +55,4 @@
 
 ## 许可证
 
-本聚合仓库采用 [Apache License 2.0](LICENSE)。Einstein Skill 与 Witten Skill 保留原有 AGPL-3.0；其余十二个仓库采用 Apache-2.0。
+本聚合仓库采用 [Apache License 2.0](LICENSE)。Einstein Skill 与 Witten Skill 保留原有 AGPL-3.0；其余十一个仓库采用 Apache-2.0。

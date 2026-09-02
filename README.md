@@ -55,4 +55,4 @@ close analysis ── review and judge ── protect and deform ── enumerat
 
 ## License
 
-This catalog is licensed under the [Apache License 2.0](LICENSE). Einstein Skill and Witten Skill retain their existing AGPL-3.0 licenses; the other twelve linked repositories use Apache-2.0.
+This catalog is licensed under the [Apache License 2.0](LICENSE). Einstein Skill and Witten Skill retain their existing AGPL-3.0 licenses; the other eleven linked repositories use Apache-2.0.
